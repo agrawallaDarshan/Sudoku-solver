@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(200, 163, 113);
+}
+td input{
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px;
+    border:none;
+    background-color: #a88532;
+    font-weight: bold;
+}
+
+table td{
+    border: 4px solid black;
+}
+
+#mainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#result{
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ubtn{
+    font-size: 2rem;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+#mainContainer h2{
+    font-size: 3.5rem;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
